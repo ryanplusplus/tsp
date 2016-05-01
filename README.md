@@ -1,2 +1,2 @@
 # tsp.lua
-Simple TSP in Lua
+`lua tsp.lua data/distances.csv $(NUMBER_OF_RUNS)`
