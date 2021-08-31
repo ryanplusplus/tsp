@@ -6,7 +6,6 @@ return function(cities, distances)
   for i = 2, #cities do
     local new_city = cities[i]
     local min = math.huge
-    local min_j = 2
 
     for insert_index = 2, #tour do
       local to = distances[tour[insert_index - 1]][new_city]
